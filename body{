@@ -1,0 +1,124 @@
+body{
+	background: #ecf7fb;
+}
+
+/*estilos navbar*/
+ul{
+	list-style-type: none;
+	margin: 0;
+    padding: 0;
+    background-color: #2c818b;
+    overflow: hidden;/*me permitye que mi contenedor no colapse*/
+    padding: 20px;
+}
+
+li{
+	float: left;
+}
+
+li a{
+	float: right;
+	color: #fff;
+	text-align: center;
+	padding: 14px 16px;
+	text-decoration: none;
+	font-family: "Baloo Paaji";
+}
+
+li a:hover:not(.active) {
+    background-color: #ff7673;
+}
+
+.active {
+    background-color: #2c818b;
+}
+
+/*estilos de section*/
+section{
+	overflow: auto;
+    margin-top: 20px;
+    background-color: #2c818b;
+    padding:20px;
+}
+/**/
+img{
+	width: 50%;
+}
+
+.imagenes{
+	width: 360px;
+	float: left;
+	background-color:#ecf7fb;
+	margin: 20px;
+	padding: 10px;
+	height: 240px;
+}
+
+.img_2{
+	float: right;
+	margin: 20px;
+}
+
+.img_3{
+	float: left;
+	margin: 20px;
+}
+
+p{
+    margin: 10px;
+    font-family: "Baloo Paaji";
+}
+
+.derecha{
+	width: 700px;
+	float: right;
+	background: #ecf7fb;
+	margin-left: 20px;
+	padding: 20px;
+}
+
+.derecha img{
+	float: left;
+    padding: 20px;
+}
+
+
+.izquierda{
+	width: 450px;
+	float: left;
+	background: #ecf7fb;
+	margin-right: 20px;
+	padding: 20px;
+}
+
+.izquierda img{
+	float: right;
+    padding: 20px;
+}
+
+.foto p{
+    font-family: "Prompt";
+    padding: 20px;
+}
+
+.iframe{
+    float: right;
+}
+
+.texto_video{
+    float: left;
+    width: 600px;
+    padding: 4%;
+}
+
+footer{
+    margin-top: 20px;
+    background-color:#2c818b;
+    overflow: auto;
+    padding: 30px;
+}
+
+.img_footer{
+    width: 10%;
+    float: right;
+}
